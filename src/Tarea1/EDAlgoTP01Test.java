@@ -1,7 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ITESS
+TICS
+Agosto - Diciembre 2024
+Estructura y organizacion de datos
+Profesor Francisco Javier Montecillo Puente
+Programador Patricio Arturo Mendez Gonzalez
+Desctripcion: -Tarea 1, clase test-
+15 de septiembre
+*/
 package Tarea1;
 
 /**
@@ -19,14 +25,26 @@ public class EDAlgoTP01Test {
         EDAlgoTP01.problema2();
         System.out.println();
         
-     
+        System.out.println("Problema 3");
+        EDAlgoTP01.problema3();
+        System.out.println();
+        
+//        Problema E3
+        
+        System.out.println("E3");
+        EDAlgoTP01.E3();
+        System.out.println();
     }
     
-    public static void salarioPorcobrarTest(){
-       public static void main(String [] args)
-            int [] ventas = {5000, 230, 430, 500};
-            SalarioPorComision spc = new SalarioCorComision(ventas);
-            
-        }
-    
 }
+     
+//    }
+//    
+//    public static void salarioPorcobrarTest(){
+//       public static void main(String [] args)
+//            int [] ventas = {5000, 230, 430, 500};
+//            SalarioPorComision spc = new SalarioCorComision(ventas);
+//            
+//        }
+//    
+//}
