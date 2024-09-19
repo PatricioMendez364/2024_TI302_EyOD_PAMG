@@ -34,6 +34,8 @@ public class EDAlgoTP01Test {
     public static void salarioPorcobrarTest() {
         int[] ventas = {5000, 230, 430, 500};
         SalarioPorComision spc = new SalarioPorComision(ventas);
+        spc.calcularSalario();
+        spc.imprimir();
         // Asegúrate de que la clase SalarioPorComision esté definida correctamente
     }
 }

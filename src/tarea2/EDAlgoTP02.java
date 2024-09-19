@@ -22,16 +22,14 @@ public class EDAlgoTP02 {
     private int arrW[];
     
     
-    
-    
     public static void E1(){
         
     }
     
     public static void E5(){
         Random random = new Random();
-        int dado1 = random.nextInt(6) + 1;
-        int dado2 = random.nextInt(6) + 1;
+        int dado1 = random.nextInt(5) + 1;
+        int dado2 = random.nextInt(5) + 1;
         
         int tiradan;
         
@@ -61,9 +59,9 @@ public class EDAlgoTP02 {
                     System.out.println("Tirada " + n + " da como resultado: " + tiradan);
                     if(tiradan == punto){
                         System.out.println("¡Ganaste!");
+                        break;
                     } else if(tiradan == 7){
-                            System.out.println("¡Perdiste!");
-                            
+                            System.out.println("¡Perdiste!");     
                         }
                     }
                 }
