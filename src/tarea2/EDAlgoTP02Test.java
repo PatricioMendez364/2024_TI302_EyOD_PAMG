@@ -17,6 +17,10 @@ package tarea2;
 public class EDAlgoTP02Test {
     public static void main(String[] args) {
         
+        EDAlgoTP02.E1();
+        
+        EDAlgoTP02.E3();
+        
         EDAlgoTP02.E5();
     }
 }
