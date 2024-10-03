@@ -99,6 +99,6 @@ public class EDAlgoTP01 {
            for(int i = 0; i < salario.length; i++){
                System.out.println(salario[i] + " ");
            }
-           System.out.println("");
+           System.out.println();
        }
    }

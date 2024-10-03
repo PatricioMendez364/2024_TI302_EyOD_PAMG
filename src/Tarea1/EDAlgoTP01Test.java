@@ -9,6 +9,7 @@ Desctripcion: -Tarea 1 Test-
 15 de septiembre
 */
 
+
 package Tarea1;
 
 public class EDAlgoTP01Test {
@@ -29,6 +30,11 @@ public class EDAlgoTP01Test {
         System.out.println("E3");
         EDAlgoTP01.E3();
         System.out.println();
+
+        // Test de SalarioPorComision
+        System.out.println("Test SalarioPorComision");
+        salarioPorcobrarTest();  // Llamada a salarioPorcobrarTest
+        System.out.println();
     }
 
     public static void salarioPorcobrarTest() {
@@ -36,6 +42,6 @@ public class EDAlgoTP01Test {
         SalarioPorComision spc = new SalarioPorComision(ventas);
         spc.calcularSalario();
         spc.imprimir();
-        // Asegúrate de que la clase SalarioPorComision esté definida correctamente
     }
 }
+

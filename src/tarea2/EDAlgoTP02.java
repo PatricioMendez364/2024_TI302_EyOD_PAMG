@@ -130,7 +130,6 @@ public class EDAlgoTP02 {
                 contador++;
             }
 
-            // Mostrar los números únicos ingresados hasta ahora
             System.out.print("Numeros unicos hasta ahora: ");
             for (int j = 0; j < contador; j++) {
                 System.out.print(numerosUnicos[j] + " ");
@@ -153,10 +152,10 @@ public class EDAlgoTP02 {
 
         System.out.println("-E5-");
 
-        for (int i = 0; i < 1000000; i++) { // Se itera 1 millón de veces
+        for (int i = 0; i < 1000000; i++) { 
             juegos++;
-            int dado1 = random.nextInt(6) + 1; // Valores entre 1 y 6
-            int dado2 = random.nextInt(6) + 1; // Valores entre 1 y 6
+            int dado1 = random.nextInt(6) + 1; 
+            int dado2 = random.nextInt(6) + 1; 
             int punto = dado1 + dado2;
 
             switch (punto) {
@@ -189,8 +188,8 @@ public class EDAlgoTP02 {
         double porcentajePerdidas = (double) perdidas / juegos * 100;
 
         System.out.println("De " + juegos + " juegos, los resultados son:");
-        System.out.println("Las partidas ganadas son el " + porcentajeGanadas);
-        System.out.println("Las partidas perdidas son el " + porcentajePerdidas);
+        System.out.println("Las partidas ganadas son el " + porcentajeGanadas + "%");
+        System.out.println("Las partidas perdidas son el " + porcentajePerdidas + "%");
     }
 }
 
