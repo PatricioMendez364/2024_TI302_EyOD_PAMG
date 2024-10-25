@@ -33,9 +33,7 @@ public class SinglyLinkedList <E> {
         public void setNext(Node<E> next) {
             this.next = next;
         }
-
-        
-             
+           
     }
 
     private Node <E>head;

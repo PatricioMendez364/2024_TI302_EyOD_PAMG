@@ -10,10 +10,6 @@ Desctripcion: -Tarea 1-
 */
 package tema2estructuralineal;
 
-/**
- *
- * @author patol
- */
 public class SinglyLinkedListTest {
     public static void main(String[] args) {
         SinglyLinkedList<String> sll = new SinglyLinkedList();
